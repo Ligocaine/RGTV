@@ -30,7 +30,7 @@ func NewApp() (*App, error) {
 	fmt.Printf("joystick: %#v\n", joystick)
 
 	window, err := sdl.CreateWindow("RGTV", sdl.WINDOWPOS_UNDEFINED, sdl.WINDOWPOS_UNDEFINED,
-		640, 480, sdl.WINDOW_SHOWN)
+		720, 480, sdl.WINDOW_SHOWN)
 	if err != nil {
 		return nil, err
 	}
